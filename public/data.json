@@ -1,0 +1,136 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "picture": "https://i.ibb.co/JBjkHFy/Health.png",
+      "title": "Clean water for children",
+      "category_card": "Health",
+      "category_card_bg": "#0052FF33",
+      "card_bg": "#0052FF26",
+      "text_button_bg": "#0052FF",
+      "description": "Health is a state of physical, mental, and social well-being that enables individuals to lead fulfilling lives. It encompasses the absence of illness or disease and the ability to cope with physical and emotional challenges. Maintaining good health involves regular exercise, a balanced diet, and adequate sleep. Mental health is equally vital, as it affects our emotions and cognitive function. Social health is built on strong relationships and community support. Health is not merely the absence of illness but the presence of vitality and resilience. It's a precious asset that requires care and attention, emphasizing prevention and holistic well-being for a fulfilling life.",
+      "price": 120
+    },
+    {
+      "id": 2,
+      "picture": "https://i.ibb.co/cgnTpgb/Education.png",
+      "title": "Good education",
+      "category_card": "Education",
+      "category_card_bg": "#FF444A33",
+      "card_bg": "#FF444A26",
+      "text_button_bg": "#FF444A",
+      "description": "Education is the cornerstone of personal growth and societal progress. It encompasses formal learning in schools and universities as well as informal knowledge acquisition throughout life. A well-rounded education equips individuals with critical thinking, problem-solving, and communication skills. It fosters creativity and opens doors to opportunities. Education empowers people to make informed decisions, contribute to their communities, and pursue fulfilling careers. It bridges gaps, promotes tolerance, and instills values of equality and diversity. In today's rapidly changing world, education is not just a luxury but a necessity for success and adaptability. It holds the key to unlocking human potential and building a better future.",
+      "price": 90
+    },
+    {
+      "id": 3,
+      "picture": "https://i.ibb.co/MhqVPXb/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category_card": "Clothing",
+      "category_card_bg": "#79C23F33",
+      "card_bg": "#79C23F26",
+      "text_button_bg": "#79C23F",
+      "description": "Clothing donation is a meaningful act of generosity that benefits both individuals in need and the environment. By giving away gently used or unwanted garments, individuals can help those less fortunate, providing them with essential clothing to stay warm and maintain their dignity. Moreover, clothing donations reduce textile waste, promoting sustainability and reducing the environmental impact of the fashion industry. Donated items often find new life through recycling or redistribution. This charitable gesture not only aids in addressing clothing insecurity but also contributes to a more eco-conscious society. Clothing donation represents a simple yet impactful way to make a positive difference in our communities and the world.",
+      "price": 250
+    },
+    {
+      "id": 4,
+      "picture": "https://i.ibb.co/NSbQbQM/Food.png",
+      "title": "Better Food for Everyone",
+      "category_card": "Food",
+      "category_card_bg": "#F8714733",
+      "card_bg": "#F8714726",
+      "text_button_bg": "#F87147",
+      "description": "Food donation is a compassionate act of providing nourishment to those in need. It plays a vital role in addressing hunger and reducing food waste. Individuals, organizations, and communities contribute surplus food to food banks, shelters, and charities, ensuring that vulnerable populations have access to nutritious meals. Beyond alleviating immediate hunger, food donation promotes social solidarity and reduces environmental impact by diverting edible food from landfills. It embodies the values of empathy and generosity, fostering a sense of shared responsibility for the well-being of society. Food donation is a simple yet powerful way to make a positive impact, combat hunger, and strengthen communities.",
+      "price": 360
+    },
+    {
+      "id": 5,
+      "picture": "https://i.ibb.co/NSbQbQM/Food.png",
+      "title": "Better Food for Everyone",
+      "category_card": "Food",
+      "category_card_bg": "#F8714733",
+      "card_bg": "#F8714726",
+      "text_button_bg": "#F87147",
+      "description": "Food donation is a compassionate act of providing nourishment to those in need. It plays a vital role in addressing hunger and reducing food waste. Individuals, organizations, and communities contribute surplus food to food banks, shelters, and charities, ensuring that vulnerable populations have access to nutritious meals. Beyond alleviating immediate hunger, food donation promotes social solidarity and reduces environmental impact by diverting edible food from landfills. It embodies the values of empathy and generosity, fostering a sense of shared responsibility for the well-being of society. Food donation is a simple yet powerful way to make a positive impact, combat hunger, and strengthen communities.",
+      "price": 360
+    },
+    {
+      "id": 6,
+      "picture": "https://i.ibb.co/MhqVPXb/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category_card": "Clothing",
+      "category_card_bg": "#79C23F33",
+      "card_bg": "#79C23F26",
+      "text_button_bg": "#79C23F",
+      "description": "Clothing donation is a meaningful act of generosity that benefits both individuals in need and the environment. By giving away gently used or unwanted garments, individuals can help those less fortunate, providing them with essential clothing to stay warm and maintain their dignity. Moreover, clothing donations reduce textile waste, promoting sustainability and reducing the environmental impact of the fashion industry. Donated items often find new life through recycling or redistribution. This charitable gesture not only aids in addressing clothing insecurity but also contributes to a more eco-conscious society. Clothing donation represents a simple yet impactful way to make a positive difference in our communities and the world.",
+      "price": 250
+    },
+    {
+      "id": 7,
+      "picture": "https://i.ibb.co/cgnTpgb/Education.png",
+      "title": "Good education",
+      "category_card": "Education",
+      "category_card_bg": "#FF444A33",
+      "card_bg": "#FF444A26",
+      "text_button_bg": "#FF444A",
+      "description": "Education is the cornerstone of personal growth and societal progress. It encompasses formal learning in schools and universities as well as informal knowledge acquisition throughout life. A well-rounded education equips individuals with critical thinking, problem-solving, and communication skills. It fosters creativity and opens doors to opportunities. Education empowers people to make informed decisions, contribute to their communities, and pursue fulfilling careers. It bridges gaps, promotes tolerance, and instills values of equality and diversity. In today's rapidly changing world, education is not just a luxury but a necessity for success and adaptability. It holds the key to unlocking human potential and building a better future.",
+      "price": 90
+    },
+    {
+      "id": 8,
+      "picture": "https://i.ibb.co/JBjkHFy/Health.png",
+      "title": "Clean water for children",
+      "category_card": "Health",
+      "category_card_bg": "#0052FF33",
+      "card_bg": "#0052FF26",
+      "text_button_bg": "#0052FF",
+      "description": "Health is a state of physical, mental, and social well-being that enables individuals to lead fulfilling lives. It encompasses the absence of illness or disease and the ability to cope with physical and emotional challenges. Maintaining good health involves regular exercise, a balanced diet, and adequate sleep. Mental health is equally vital, as it affects our emotions and cognitive function. Social health is built on strong relationships and community support. Health is not merely the absence of illness but the presence of vitality and resilience. It's a precious asset that requires care and attention, emphasizing prevention and holistic well-being for a fulfilling life.",
+      "price": 120
+    },
+    {
+      "id": 9,
+      "picture": "https://i.ibb.co/JBjkHFy/Health.png",
+      "title": "Clean water for children",
+      "category_card": "Health",
+      "category_card_bg": "#0052FF33",
+      "card_bg": "#0052FF26",
+      "text_button_bg": "#0052FF",
+      "description": "Health is a state of physical, mental, and social well-being that enables individuals to lead fulfilling lives. It encompasses the absence of illness or disease and the ability to cope with physical and emotional challenges. Maintaining good health involves regular exercise, a balanced diet, and adequate sleep. Mental health is equally vital, as it affects our emotions and cognitive function. Social health is built on strong relationships and community support. Health is not merely the absence of illness but the presence of vitality and resilience. It's a precious asset that requires care and attention, emphasizing prevention and holistic well-being for a fulfilling life.",
+      "price": 120
+    },
+    {
+      "id": 10,
+      "picture": "https://i.ibb.co/cgnTpgb/Education.png",
+      "title": "Good education",
+      "category_card": "Education",
+      "category_card_bg": "#FF444A33",
+      "card_bg": "#FF444A26",
+      "text_button_bg": "#FF444A",
+      "description": "Education is the cornerstone of personal growth and societal progress. It encompasses formal learning in schools and universities as well as informal knowledge acquisition throughout life. A well-rounded education equips individuals with critical thinking, problem-solving, and communication skills. It fosters creativity and opens doors to opportunities. Education empowers people to make informed decisions, contribute to their communities, and pursue fulfilling careers. It bridges gaps, promotes tolerance, and instills values of equality and diversity. In today's rapidly changing world, education is not just a luxury but a necessity for success and adaptability. It holds the key to unlocking human potential and building a better future.",
+      "price": 90
+    },
+    {
+      "id": 11,
+      "picture": "https://i.ibb.co/MhqVPXb/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category_card": "Clothing",
+      "category_card_bg": "#79C23F33",
+      "card_bg": "#79C23F26",
+      "text_button_bg": "#79C23F",
+      "description": "Clothing donation is a meaningful act of generosity that benefits both individuals in need and the environment. By giving away gently used or unwanted garments, individuals can help those less fortunate, providing them with essential clothing to stay warm and maintain their dignity. Moreover, clothing donations reduce textile waste, promoting sustainability and reducing the environmental impact of the fashion industry. Donated items often find new life through recycling or redistribution. This charitable gesture not only aids in addressing clothing insecurity but also contributes to a more eco-conscious society. Clothing donation represents a simple yet impactful way to make a positive difference in our communities and the world.",
+      "price": 250
+    },
+    {
+      "id": 12,
+      "picture": "https://i.ibb.co/NSbQbQM/Food.png",
+      "title": "Better Food for Everyone",
+      "category_card": "Food",
+      "category_card_bg": "#F8714733",
+      "card_bg": "#F8714726",
+      "text_button_bg": "#F87147",
+      "description": "Food donation is a compassionate act of providing nourishment to those in need. It plays a vital role in addressing hunger and reducing food waste. Individuals, organizations, and communities contribute surplus food to food banks, shelters, and charities, ensuring that vulnerable populations have access to nutritious meals. Beyond alleviating immediate hunger, food donation promotes social solidarity and reduces environmental impact by diverting edible food from landfills. It embodies the values of empathy and generosity, fostering a sense of shared responsibility for the well-being of society. Food donation is a simple yet powerful way to make a positive impact, combat hunger, and strengthen communities.",
+      "price": 360
+    }
+  ]
+}
