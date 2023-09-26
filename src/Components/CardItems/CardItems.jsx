@@ -1,12 +1,14 @@
 /* eslint-disable react/prop-types */
 
+import { saveAddedDonation } from "../utility/localStorage";
+
 
 const CardItems = ({cardItem}) => {
-    const { picture, title, description, price } = cardItem || {}
+    const {id, picture, title, description, price } = cardItem || {}
 
     const handleAddToDonation = () => {
-        console.log(cardItem);
-        localStorage.setItem('test', )
+        saveAddedDonation(id)
+      
     }
 
     return (
@@ -16,12 +18,12 @@ const CardItems = ({cardItem}) => {
             <img className="w-full h-[600px]" src={picture} alt="" />
           </figure>
           <div className="">
-            <div className="card-actions justify-end absolute top-[240px] right-[650px] ">
+            <div className="card-actions justify-end absolute top-[200px] right-[650px] ">
               <button onClick={handleAddToDonation} className="btn bg-[#FF444A] border-none rounded-sm text-white font-bold">Donate ${price}</button>
             </div>
           </div>
           <div className="card-body">
-            <h2 className="card-title font-bold text-2xl">{title}!</h2>
+            <h2 className="card-title font-bold text-2xl">{title}</h2>
             <p>{description}</p>
           </div>
         </div>

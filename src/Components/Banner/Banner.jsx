@@ -10,13 +10,13 @@ const Banner = () => {
         <div className="hero-overlay bg-white bg-opacity-80"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="">
-            <h1 className="mb-5 text-black text-5xl font-bold">
+            <h1 className="mb-5 text-black text-xl mt-10 md:text-5xl font-bold">
               I Grow By Helping People In Need
             </h1>
             <div className="form-control text-center">
               <label className="input-group justify-center">
                 <input
-                  className="px-40 py-3 text-left"
+                  className="px-4 md:px-40 md:py-3 py-2 text-left"
                   type="text"
                   placeholder="Search Here...."
                 />
