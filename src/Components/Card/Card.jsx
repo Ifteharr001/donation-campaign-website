@@ -1,19 +1,22 @@
-import { useState } from "react";
-import { useLoaderData, useParams } from "react-router-dom";
 
+import { useEffect, useState } from "react";
+import { useLoaderData, useParams } from "react-router-dom";
+import CardItems from "../CardItems/CardItems";
 const Card = () => {
 
-    const [card, setCard] = useState()
+    const [cardItem, setCardItem] = useState()
 
-    const params = useParams()
-    console.log(params)
-
+    const {id} = useParams()
     const cards = useLoaderData()
-    console.log(cards)
+    
 
+    useEffect(()=>{
+        const findCard = cards?.data?.find(card=>card.id == id)
+        setCardItem(findCard)
+    }, [cards, id])
     return (
         <div>
-            
+            <CardItems cardItem={cardItem}></CardItems>
         </div>
     );
 };

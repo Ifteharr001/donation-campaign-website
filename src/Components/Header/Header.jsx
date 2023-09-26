@@ -4,12 +4,12 @@ import logo from '../../images/Logo.png'
 const Header = () => {
     return (
       <div>
-        <div className="navbar absolute">
+        <div className="navbar fixed z-10">
           <div className="flex-1">
             <img src={logo} alt="" />
           </div>
           <div className="flex-none">
-            <ul className='flex'>
+            <ul className="flex">
               <li className="font-bold mr-5">
                 <NavLink
                   to="/"
