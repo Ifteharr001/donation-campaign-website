@@ -2,7 +2,7 @@
 const Banner = () => {
     return (
       <div
-        className="hero min-h-[90vh] bg-cover relative"
+        className="hero min-h-[100vh] md:min-h-[90vh] bg-cover relative"
         style={{
           backgroundImage: "url(https://i.ibb.co/3zPR8Td/Rectangle-4281.png)",
         }}
@@ -10,7 +10,7 @@ const Banner = () => {
         <div className="hero-overlay bg-white bg-opacity-80"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="">
-            <h1 className="mb-5 text-black text-xl mt-10 md:text-5xl font-bold">
+            <h1 className="mb-5 text-black text-center text-xl mt-14 md:text-5xl font-bold">
               I Grow By Helping People In Need
             </h1>
             <div className="form-control text-center">

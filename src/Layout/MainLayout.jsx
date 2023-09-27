@@ -4,7 +4,7 @@ import Header from "../Components/Header/Header";
 const MainLayout = () => {
     return (
       <div className="">
-        <Header className="max-w-[1140px] mx-auto"></Header>
+        <Header className=""></Header>
         <Outlet></Outlet>
       </div>
     );
