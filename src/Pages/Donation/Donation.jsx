@@ -25,7 +25,7 @@ const Donation = () => {
         </div>
       ) : (
         <div>
-          <div className="grid grid-cols-2 gap-8 pt-[150px]">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-[150px]">
             {isShow
               ? donate.map((donates) => (
                   <div key={donates.id}>
@@ -42,7 +42,7 @@ const Donation = () => {
                       </figure>
                       <div className="card-body">
                         <span
-                          className="px-2 py-2 font-bold rounded-md w-[50%] text-center"
+                          className="px-2 py-2 font-bold rounded-md md:w-[50%] w-[100%] text-center"
                           style={{
                             backgroundColor: donates.category_card_bg,
                             color: donates.text_button_bg,

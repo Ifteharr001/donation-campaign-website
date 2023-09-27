@@ -1,8 +1,11 @@
-# React + Vite
+*** Dynamic Rendering of Donation Items:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+=> The project have dynamically renders donation items based on the data stored in the local storage. It checks if there are donation items available and, if so, displays them on the page.
 
-Currently, two official plugins are available:
+*** Responsive Layout and Styling:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+=> The project employs responsive design practices, using different grid layouts and styles for various screen sizes. Tailwind CSS classes are used for styling, ensuring a visually appealing and responsive user interface.
+
+*** Conditional Display of "No Data Found" Message:
+
+=> The project handles the scenario where there is no data available in the local storage by showing a user-friendly message: "No Data Found." This is a good user experience practice, as it communicates to users when there is no relevant content to display, providing clarity instead of rendering an empty or confusing interface.

@@ -30,7 +30,7 @@ const Statistics = () => {
 
        
   return (
-    <div className="pt-[200px] pl-[500px]">
+    <div className="pt-[200px] pl-[50px] md:pl-[500px]">
       <ReactApexChart
         options={state.options}
         series={state.series}

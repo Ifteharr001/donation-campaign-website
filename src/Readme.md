@@ -1,3 +1,0 @@
-*** Styling Customization:
-
-=> The code applies dynamic styling to the donation cards. It uses inline CSS styles to set the background color, text color, and other style properties of the cards. The colors and styles are determined by the properties of each donation object, such as card_bg, category_card_bg, and text_button_bg. This allows for a visually appealing and customized display of donations, making it easy to differentiate between different categories or types of donations.
