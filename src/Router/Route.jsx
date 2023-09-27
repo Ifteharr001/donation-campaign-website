@@ -7,32 +7,33 @@ import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Card from "../Components/Card/Card";
 
 const customCreatedRoute = createBrowserRouter([
-    {
+  {
+    path: "/",
+    element: <MainLayout></MainLayout>,
+    errorElement: <ErrorPage></ErrorPage>,
+    children: [
+      {
         path: "/",
-        element: <MainLayout></MainLayout>,
-        errorElement: <ErrorPage></ErrorPage>,
-        children: [
-            {
-                path: "/",
-                element: <Home></Home>,
-                loader: () => fetch('/data.json')
-            },
-            {
-                path: "/donation",
-                element: <Donation></Donation>,
-                loader: () => fetch('/data.json')
-            },
-            {
-                path: "/statistics",
-                element: <Statistics></Statistics>
-            },
-            {
-                path: '/card/:id',
-                element: <Card></Card>,
-                loader: () => fetch('/data.json')
-            }
-        ]
-    }
-]) 
+        element: <Home></Home>,
+        loader: () => fetch("/data.json"),
+      },
+      {
+        path: "/donation",
+        element: <Donation></Donation>,
+        loader: () => fetch("/data.json"),
+      },
+      {
+        path: "/statistics",
+        element: <Statistics></Statistics>,
+      },
+      
+      {
+        path: "/card/:id",
+        element: <Card></Card>,
+        loader: () => fetch("/data.json"),
+      },
+    ],
+  },
+]); 
 
 export default customCreatedRoute;
